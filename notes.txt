@@ -1,0 +1,10 @@
+sol1
+
+-----
+buffer begins at 0xbffeffbc
+
+return address we want to overwrite: 
+0x080488df
+
+where we want to go.. 
+0x0804889c
