@@ -8,3 +8,20 @@ return address we want to overwrite:
 
 where we want to go.. 
 0x0804889c
+
+sol2
+----
+buffer begins at 0xbffeff4c
+
+addy we need to overwrite 
+0x080488d2
+
+with the beggining of the buffer..
+
+sol3
+
+-------
+system call function at 0x804ef30
+buffer starts at 0xbffeffa6
+I think we need to force system("bin/sh") to be called.
+
